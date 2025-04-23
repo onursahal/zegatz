@@ -1,0 +1,15 @@
+---
+import BlogPost from '../../layouts/BlogPost.astro';
+import { getPageAsMarkdown } from '../../../notion';
+
+export const prerender = false;
+
+const {id} = Astro.params;
+const date  = Astro.url.searchParams.get('date');
+const title = Astro.url.searchParams.get('title');
+
+const page = await getPageAsMarkdown(id);
+---
+
+<BlogPost date={date} title={title} id={id} content={page} />
+

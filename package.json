@@ -12,6 +12,17 @@
     "@astrojs/mdx": "^4.2.4",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.0",
-    "astro": "^5.7.4"
+    "@notionhq/client": "^2.3.0",
+    "@tailwindcss/vite": "^4.1.4",
+    "astro": "^5.7.4",
+    "astro-icon": "^1.1.5",
+    "marked": "^15.0.8",
+    "notion-to-md": "^3.1.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4"
   }
 }
