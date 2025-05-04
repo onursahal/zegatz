@@ -1,0 +1,9 @@
+name = "zegatz"
+compatibility_date = "2024-05-04"
+
+[build]
+command = "npm run build"
+publish = "dist"
+
+[site]
+bucket = "dist"
